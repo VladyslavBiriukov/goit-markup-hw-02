@@ -1,0 +1,84 @@
+/*цвет заголовков rgba(33, 33, 33, 1)*/
+/*цвет текста rgba(117, 117, 117, 1)*/
+/*цвет героя rgba(255, 255, 255, 1)*/
+/*цвет фона героя rgba(47, 48, 58, 1)*/
+/*голубой(accent) цвет rgba(33, 150, 243, 1)*/
+/*цвет адресов в футере rgba(255, 255, 255, 0.6)*/
+/*цвет лого studio rgba(0, 0, 0, 1)*/
+/*цвет шапки rgba(255, 255, 255, 1)*/
+/*цвет фона #F5F5F5 */
+/*цвет фона вторичный rgba(245, 244, 250, 1)*/
+:root {
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --title-text-color: rgba(33, 33, 33, 1);
+    --accent-color: rgba(33, 150, 243, 1);
+    --primary-white-color: rgba(255, 255, 255, 1);
+}
+body {
+    background-color: rgba(255, 255, 255, 1);
+    color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+
+/* logo header */
+.logo-header {
+    color: rgba(0, 0, 0, 1);
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+    background-color: rgba(47, 48, 58, 1);
+}
+.hero-title {
+    color: var(--primary-white-color);
+}
+/* button */
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
+}
+
+/* contacts */
+.contacts .link {
+    color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* titles h2 */
+.section-title {
+    color: var(--title-text-color);
+}
+/* titles h3 */
+.peculiarities .title {
+    color: var(--title-text-color);
+}
+.team .title {
+    color: var(--title-text-color);
+}
+
+/* footer */
+.logo-footer {
+    color:  rgba(255, 255, 255, 1);
+}
