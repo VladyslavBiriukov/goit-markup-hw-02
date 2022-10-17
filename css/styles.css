@@ -21,7 +21,9 @@ body {
    
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+
 }
+
 .list {
     list-style: none;
 }
@@ -32,8 +34,9 @@ body {
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
     
 
 }
@@ -50,10 +53,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
+
 }
 .site-nav .link.current{
     color: var(--accent-color);
@@ -78,6 +83,7 @@ text-transform: uppercase;
 .button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 
 font-weight: 700;
 font-size: 16px;
@@ -96,6 +102,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+text-decoration: none;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -129,32 +136,64 @@ line-height: 1.18;
 
 /*text*/
 .peculiarities .text {
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
 
 .team .text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 }
+/*back "our team"*/
+.section-team {
+    background-color: var(--button-grey-color);
+}
 
 /* footer */
+.footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+
 .logo-footer {
     color:  rgba(255, 255, 255, 1);
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 26px;
     line-height: 1,19;
+    text-decoration: none;
 }
+
+.adress {
+    color: var(--primary-white-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.adress .adress-link {
+    color: rgba(255, 255, 255, 0.6);
+
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
 
 /* page portfolio */
 
 .button-menu {
     color: var(--title-text-color);
     background-color: var(--button-grey-color);
+    cursor: pointer;
 
 font-weight: 500;
 font-size: 16px;
@@ -177,7 +216,7 @@ line-height: 1.62;
 
 .projects .text {
 
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 }
+
