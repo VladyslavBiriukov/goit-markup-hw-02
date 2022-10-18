@@ -67,17 +67,16 @@ text-decoration: none;
 /* hero */
 .hero {
     background-color: rgba(47, 48, 58, 1);
+}
+.hero-title {
+    color: var(--primary-white-color);
 
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-}
-.hero-title {
-    color: var(--primary-white-color);
 }
 /* button */
 .button {
@@ -85,6 +84,7 @@ text-transform: uppercase;
     background-color: var(--accent-color);
     cursor: pointer;
 
+font-family: 'Roboto';
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -167,24 +167,17 @@ line-height: 1.18;
 .adress {
     color: var(--primary-white-color);
 
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+
 }
 
 .adress .adress-link {
     color: rgba(255, 255, 255, 0.6);
 
-text-decoration: none;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+    text-decoration: none;
+
 }
 
 
@@ -195,6 +188,7 @@ letter-spacing: 0.03em;
     background-color: var(--button-grey-color);
     cursor: pointer;
 
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
